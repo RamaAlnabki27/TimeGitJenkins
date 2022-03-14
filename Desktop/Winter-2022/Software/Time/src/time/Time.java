@@ -23,8 +23,8 @@ public class Time
 {
 	public static void main(String[] args) 
 	{
-		int time = getTotalSeconds("10:10:10");
-		System.out.print("Total secondes is: " + time);
+		int totalSeconds = getTotalSeconds("10:10:10");
+		System.out.print("Total secondes is =  " + totalSeconds);
 		/*try
 		{	
 		String time = JOptionPane.showInputDialog(null,
